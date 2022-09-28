@@ -19,11 +19,11 @@ int main(int argc, char *argv[])
     // Copy argv[1] into block of memory for filename
     sprintf(filename, "%s", argv[1]);
 
-    // Free filename
-    free(filename);
-
     // Open new file under the name stored at filename
     FILE *new_file = fopen(filename, "w");
+    
+    // Free filename
+    free(filename);
 
     if (new_file == NULL)
     {
