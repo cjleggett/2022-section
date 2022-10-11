@@ -1,38 +1,48 @@
 class Dog():
-    def __init__(self, name: str, good_dog: bool):
+    def __init__(self, name: str, good_dog: bool = True, age: int = 0):
+        """This function specifies how to create a new Dog object"""
         self.name = name
         self.good_dog = good_dog
-        self.treats = 0
+        self.age = age
 
     def bark(self):
-        return "Woof!"
+        print("Woof!")
 
-    def eat_treats(self, n):
-        print(f"Eating {n} treats...")
-        self.treats -= n
-        return self.treats
+    def celebrate_birthday(self):
+        self.age += 1
 
-    def get_treats(self, n):
-        print(f"Finding {n} treats...")
-        self.treats += n
-        return self.treats
+    def get_age(self):
+        return self.age
 
     def __str__(self):
-        return f"{self.name} is {'' if self.good_dog else ' not '}a good dog and has {self.treats} treats."
+        """
+        The __str__ method is built in to most existing python objects. It is called
+        implicitly when an object is printed or included in an f-string!
+        """
+        return f"{self.name} is {'' if self.good_dog else ' not '}a good dog and is {self.age} years old."
 
-doggy = Dog(
+doggy1 = Dog(
     name="Harper",
-    good_dog=True
 )
 
-print(doggy)
-print(doggy.bark())
+doggy2 = Dog(
+    name="Quinn",
+)
 
-# Getting some treats
-doggy.get_treats(5)
-doggy.get_treats(6)
+print(f"doggy1: {doggy1}")
+print(f"doggy1: {doggy2}")
+doggy1.bark()
 
-# Eating some...
-doggy.eat_treats(8)
+# Aging up
+doggy1.celebrate_birthday()
 
-print(doggy)
+for i in range(11):
+    doggy2.celebrate_birthday()
+
+# Printing ages
+print(f"doggy1's age is {doggy1.get_age()}")
+print(f"doggy2's age is {doggy2.get_age()}")
+
+# Printing dogs again
+print(f"doggy1: {doggy1}")
+print(f"doggy1: {doggy2}")
