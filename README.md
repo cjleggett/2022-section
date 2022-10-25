@@ -35,5 +35,5 @@
 
 ## Week 7:
 
-- [Slides](https://github.com/cjleggett/2022-section/blob/main/section7/slides.pdf)
+- [Slides](https://github.com/cjleggett/2022-section/blob/main/section7/week_7_slides.pdf)
 - [Exercises](https://github.com/cjleggett/2022-section/tree/main/section7)
