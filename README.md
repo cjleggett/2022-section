@@ -41,5 +41,5 @@
 
 ## Week 8:
 
-- [Slides](https://github.com/cjleggett/2022-section/blob/main/section7/week8slides.pdf)
+- [Slides](https://github.com/cjleggett/2022-section/blob/main/section8/week8slides.pdf)
 - We'll make a webpage together as a class, and it will be posted here after class.
