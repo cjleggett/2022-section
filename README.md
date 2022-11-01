@@ -37,3 +37,9 @@
 
 - [Slides](https://github.com/cjleggett/2022-section/blob/main/section7/week_7_slides.pdf)
 - [Exercises](https://github.com/cjleggett/2022-section/tree/main/section7)
+
+
+## Week 8:
+
+- [Slides](https://github.com/cjleggett/2022-section/blob/main/section7/week8slides.pdf)
+- We'll make a webpage together as a class, and it will be posted here after class.
