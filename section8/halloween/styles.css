@@ -1,0 +1,19 @@
+h1
+{
+    color: orange;
+}
+
+.scary
+{
+    color: red;
+}
+
+.cool
+{
+    font-weight: bold;
+}
+
+li > a
+{
+    color: blue;
+}

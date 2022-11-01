@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+                setInterval(count, 1000);
+            });
+
+            let counter = 0;
+
+            function count()
+            {
+                counter += 1;
+                console.log(counter);
+                speechBox = document.querySelector("#count");
+                speechBox.value = counter;
+            }
+
+        </script>
+        <style>
+
+            #cat
+            {
+                max-width: 50%;
+            }
+
+            #count
+            {
+                font-size: xx-large;
+                vertical-align: top;
+            }
+
+        </style>
+        <title>count</title>
+    </head>
+    <body>
+        <img alt="cat" id="cat" src="https://cdn.cs50.net/2020/fall/test/cats/cat.png">
+        <input id="count" readonly type="text">
+    </body>
+</html>
