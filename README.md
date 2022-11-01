@@ -42,4 +42,6 @@
 ## Week 8:
 
 - [Slides](https://github.com/cjleggett/2022-section/blob/main/section8/week8slides.pdf)
-- We'll make a webpage together as a class, and it will be posted here after class.
+- Exercises:
+  - [Harvard - Yale](https://github.com/cjleggett/2022-section/tree/main/section8/harvard_yale)
+  - [Halloween](https://github.com/cjleggett/2022-section/tree/main/section8/halloween)
