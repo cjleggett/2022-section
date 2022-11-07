@@ -49,5 +49,5 @@
 
 ## Week 9:
 
-- [Slides](https://github.com/cjleggett/2022-section/blob/main/section9/week_9_slides.pdf)
+- [Slides](https://github.com/cjleggett/2022-section/blob/main/section9/week_9_section.pdf)
 - [Exercises](https://github.com/cjleggett/2022-section/tree/main/section9)
