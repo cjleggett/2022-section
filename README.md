@@ -45,3 +45,9 @@
 - Exercises:
   - [Harvard - Yale](https://github.com/cjleggett/2022-section/tree/main/section8/harvard_yale)
   - [Halloween](https://github.com/cjleggett/2022-section/tree/main/section8/halloween)
+
+
+## Week 9:
+
+- [Slides](https://github.com/cjleggett/2022-section/blob/main/section9/week_9_slides.pdf)
+- [Exercises](https://github.com/cjleggett/2022-section/tree/main/section9)
