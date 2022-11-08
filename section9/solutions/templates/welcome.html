@@ -1,0 +1,13 @@
+{% extends "template.html" %}
+
+{% block body %}
+<h1>Welcome</h1>
+<p>Welcome to my site, {{ x }}</p>
+
+<ul>
+    {% for blah in users %}
+        <li>{{ blah }}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
