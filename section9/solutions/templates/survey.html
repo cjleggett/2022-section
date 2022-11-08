@@ -1,0 +1,10 @@
+{% extends "template.html" %}
+
+{% block body %}
+<h1>Survey</h1>
+<form action="/survey" method="POST">
+    <input name="mood" type="text" placeholder="mood">
+    <input name="age" type="number" placeholder="age">
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}
