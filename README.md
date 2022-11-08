@@ -1,7 +1,8 @@
 # 2022 section
 
-- When: Tuesdays 3-4:15pm
-- Where: Emerson 210
+Thank you all for a great semester! I'll most likely keep these up indefinitely, so feel free to continue using this as a resource!
+
+-Connor
 
 ## Week 2:
 
